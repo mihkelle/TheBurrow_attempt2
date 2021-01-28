@@ -1,0 +1,38 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_Cave_Rock_CurvedWall"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+      PreviewMesh=/Game/Developers/joshuamarlow/Meshes/SM_Cave_Rock_CurvedWall.SM_Cave_Rock_CurvedWall
+   End Object
+   Parent=Material'"/Game/SoulCave/Environment/Materials/Rocks/M_Cave_Rock_MASTER.M_Cave_Rock_MASTER"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Core Darkness"),ParameterValue=0.600000,ExpressionGUID=3A58462C45E60F0A21F32AB88254515B)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="DetailRockRoughnessMAX"),ParameterValue=1.500000,ExpressionGUID=ED9402964104871468550A97C6BC01EC)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="DetailRockRoughnessMIN"),ParameterValue=-0.050000,ExpressionGUID=2125EEF6406B883E629F9DA5839C6282)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="DetailRockTiling"),ParameterValue=16.000000,ExpressionGUID=D4C0F5534157F4D31FB92C805AE49304)
+   ScalarParameterValues(4)=(ParameterInfo=(Name="DiffuseA_UV"),ParameterValue=4.000000,ExpressionGUID=3EC728A243FFE193B7761FB65CF2920E)
+   ScalarParameterValues(5)=(ParameterInfo=(Name="DiffuseB_UV"),ParameterValue=5.000000,ExpressionGUID=4587308746C4ED18A229D18F1F913B7A)
+   ScalarParameterValues(6)=(ParameterInfo=(Name="Edge Brightness"),ParameterValue=0.100000,ExpressionGUID=635C95B64711456664D98ABF23F0BB54)
+   ScalarParameterValues(7)=(ParameterInfo=(Name="Edge Power"),ParameterValue=2.000000,ExpressionGUID=27F8C81A4BEC1F1143497E8B4DEF4B35)
+   ScalarParameterValues(8)=(ParameterInfo=(Name="MainRockRoughnessMAX"),ParameterValue=2.000000,ExpressionGUID=310667BA406DE93B7A9CBA88D50EA6EB)
+   ScalarParameterValues(9)=(ParameterInfo=(Name="MainRockRoughnessMIN"),ParameterValue=-0.100000,ExpressionGUID=345C61974EC5EE8653D5AA9676503206)
+   ScalarParameterValues(10)=(ParameterInfo=(Name="NormalTiling_UV"),ParameterValue=5.000000,ExpressionGUID=963F845641D2DF16A4218F983A4C6FFE)
+   ScalarParameterValues(11)=(ParameterInfo=(Name="RockTiling"),ParameterValue=6.000000,ExpressionGUID=95782A4A44183E2DD6A4E1B7EDD6A7F2)
+   ScalarParameterValues(12)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Edge Highlight Colour"),ParameterValue=(R=1.400000,G=1.400000,B=1.400000,A=1.000000),ExpressionGUID=84B95F984480FCDFE91DDA8FC8A7E7DC)
+   TextureParameterValues(0)=(ParameterInfo=(Name="NRM"),ParameterValue=Texture2D'"/Game/SoulCave/Environment/Textures/Rock/T_Cave_Rock_CurvedWall_N.T_Cave_Rock_CurvedWall_N"',ExpressionGUID=542273FC4D1A0EEF475533A64DE9335A)
+   TextureParameterValues(1)=(ParameterInfo=(Name="MainNormal"),ParameterValue=Texture2D'"/Game/SoulCave/Environment/Textures/Rock/T_Cave_Rock_Large_N.T_Cave_Rock_Large_N"',ExpressionGUID=5FF98B9641F5F50F68C3E485E47630DF)
+   TextureParameterValues(2)=(ParameterInfo=(Name="Mask"),ParameterValue=Texture2D'"/Game/SoulCave/Environment/Textures/Rock/T_Cave_Rock_CurvedWall_M.T_Cave_Rock_CurvedWall_M"',ExpressionGUID=80425E8D449C76B44E4080BC25D24327)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=699C792E4EE2FA53BFD58CA8475F02EA
+   ReferencedTextureGuids(1)=B59273D7411AACD47CE6DEA26D47857F
+   ReferencedTextureGuids(2)=3B0BFD564DD7258E851EEDBF50521E92
+   ReferencedTextureGuids(3)=E6D96CA7418DCA0C577427809551FCB8
+   ReferencedTextureGuids(4)=016683134F7C805877010C8A88DAB72E
+   CachedReferencedTextures(0)=Texture2D'"/Game/SoulCave/Environment/Textures/Rock/T_Cave_Rock_01_N.T_Cave_Rock_01_N"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/SoulCave/Environment/Textures/Rock/T_Cave_Rock_01_D.T_Cave_Rock_01_D"'
+   CachedReferencedTextures(2)=Texture2D'"/Game/SoulCave/Environment/Textures/Rock/T_Cave_Rock_Stalactite_M.T_Cave_Rock_Stalactite_M"'
+   CachedReferencedTextures(3)=Texture2D'"/Game/SoulCave/Environment/Textures/Rock/T_Cave_Rock_Stalactite_N.T_Cave_Rock_Stalactite_N"'
+   CachedReferencedTextures(4)=Texture2D'"/Game/SoulCave/Environment/Textures/Rock/T_Cave_Rock_Detail_D.T_Cave_Rock_Detail_D"'
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=9DE1A17540B9DA1A91E774AB0F66E854
+End Object
